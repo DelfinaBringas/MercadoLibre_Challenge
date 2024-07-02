@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #2b658b;
     padding: 20px;
   }
   
@@ -40,7 +40,7 @@ body {
     margin-top: 15px;
     border-radius: 8px;
     background-color: #e6e7e7;
-    color:  #1f6ce0;
+    color:  #5e1111;
     height: 40px;
     padding: 12px 20px;
     border: none;
@@ -48,9 +48,6 @@ body {
     font-size: 16px;
     width: 100%;
   }
-  
-
-
 
   #formularioCompra button:hover {
     background-color: #c9d1dd;
