@@ -656,6 +656,7 @@ document.getElementById('purchases-link').addEventListener('click', (e) => {
 });
 
 document.getElementById('cart-link').addEventListener('click', (e) => {
+    document.getElementById('paginacion').style.display = 'none';
     e.preventDefault();
     renderCart();
 });
