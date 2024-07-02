@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/public/styles/formulario.css">
+  <title>Formulario de Compra</title>
+</head>
+<body>
+
+<form id="formularioCompra">
+  <h2>Completa tus datos para realizar la compra</h2>
+  <ul>
+    <li>
+      <label for="nombre">Nombre completo:</label>
+      <input type="text" id="nombre" name="nombre" required>
+    </li>
+    <li>
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+    </li>
+    <li>
+      <label for="direccion">Dirección de envío:</label>
+      <input type="text" id="direccion" name="direccion" required>
+    </li>
+    <li>
+      <label for="metodoPago">Método de pago:</label>
+      <select id="metodoPago" name="metodoPago" required>
+        <option value="tarjeta">Tarjeta de crédito/débito</option>
+        <option value="paypal">PayPal</option>
+        <option value="transferencia">Transferencia bancaria</option>
+      </select>
+    </li>
+  </ul>
+
+  <button type="submit">Realizar compra</button>
+</form>
+
+<div id="mensajeExito" style="display: none;">Su compra fue realizada con éxito.</div>
+
+<script src="/public/scripts/formulario.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  #formularioCompra {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #formularioCompra h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  #formularioCompra label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  #formularioCompra input[type="text"],
+  #formularioCompra input[type="email"],
+  #formularioCompra select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  #formularioCompra button {
+    margin-top: 15px;
+    border-radius: 8px;
+    background-color: #e6e7e7;
+    color:  #1f6ce0;
+    height: 40px;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+
+
+
+  #formularioCompra button:hover {
+    background-color: #c9d1dd;
+
+  }
+  
+  #mensajeExito {
+    display: none;
+    margin-top: 20px;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+    padding: 15px;
+    border-radius: 4px;
+    text-align: center;
+  }
+
